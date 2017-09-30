@@ -1,0 +1,96 @@
+Kolben Games Crash Log V 2.4
+Pokémon 3D has crashed!
+// Mojang buys Microsoft! Get your new Mojang operating system now. With more blocks and scrolls.
+
+---------------------------------------------------------------------------------
+
+Game information:
+
+Pokémon 3D Indev version: 0.55 (94)
+Content Packs: {}
+Active GameMode: [No GameMode loaded]
+GameJolt Account: FALSE
+Playing on Servers: FALSE
+Game Environment: [No Game Environment loaded]
+Actionscript: No script running
+File Validation: False
+Sandboxmode: False
+
+---------------------------------------------------------------------------------
+
+[Screen state object not available]
+
+---------------------------------------------------------------------------------
+
+System specifications:
+
+Operating system: TeamOS Windows 7 Dark 2015  [6.1.7601.65536]
+Core architecture: 64 Bit
+System time: 9/29/2017 5:29:01 PM
+System language: English (United States)(ENU) / Loaded game language: en
+Decimal separator: .
+Available physical memory: 7.91 Gigabyte
+Available logical processors: 2
+
+---------------------------------------------------------------------------------
+
+.Net installation information:
+
+v2.0.50727  2.0.50727.5420  SP2
+v3.0  3.0.30729.5420  SP2
+v3.5  3.5.30729.5420  SP1
+v4  
+  Client  4.7.02053
+  Full  4.7.02053
+v4.0  
+  Client  4.0.0.0
+
+---------------------------------------------------------------------------------
+
+Graphics Card information:
+
+[CardName(s): "Standard VGA Graphics Adapter"]
+[CardRAM(s) : ""]
+
+---------------------------------------------------------------------------------
+
+Error information:
+
+Message: Failed to create graphics device!
+InnerException: MonoGame requires OpenGL 3.0 compatible drivers, or either ARB_framebuffer_object or EXT_framebuffer_object extensions.Try updating your graphics drivers.
+BaseException: MonoGame requires OpenGL 3.0 compatible drivers, or either ARB_framebuffer_object or EXT_framebuffer_object extensions.Try updating your graphics drivers.
+HelpLink: No helplink available.
+Data: Items: 0
+Source: MonoGame.Framework
+Win32 Errorcode: -1
+
+---------------------------------------------------------------------------------
+
+Error solution:
+(The provided solution might not work for your problem)
+
+Error ID: -1
+Error Type: NaN
+Error Description: The error is undocumented in the error handling system.
+Error Solution: NaN
+
+---------------------------------------------------------------------------------
+
+CallStack: 
+
+   at Microsoft.Xna.Framework.GraphicsDeviceManager.CreateDevice()
+   at Microsoft.Xna.Framework.Game.DoInitialize()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at net.Pokemon3D.Game.Program.Main(String[] args) in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Core\Program.vb:line 25
+
+---------------------------------------------------------------------------------
+
+Enviornment dump: 
+
+Object reference not set to an instance of an object.
+
+---------------------------------------------------------------------------------
+
+You should report this error.
+
+Go to "http://pokemon3d.net/forum/forums/6/create-thread" to report this crash there.

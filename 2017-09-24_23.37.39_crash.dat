@@ -1,0 +1,139 @@
+Kolben Games Crash Log V 2.4
+Pokémon 3D has crashed!
+// RTFM
+
+---------------------------------------------------------------------------------
+
+Game information:
+
+Pokémon 3D Indev version: 0.55 (94)
+Content Packs: {}
+Active GameMode: Pokemon 3D
+GameJolt Account: FALSE
+Playing on Servers: FALSE
+Game Environment: JoinServerScreen
+Actionscript: No script running
+File Validation: False
+Sandboxmode: False
+
+---------------------------------------------------------------------------------
+
+Screen state for the current screen (JoinServerScreen)
+
+Screen state not implemented for screen class: JoinServerScreen
+
+---------------------------------------------------------------------------------
+
+System specifications:
+
+Operating system: TeamOS Windows 7 Dark 2015  [6.1.7601.65536]
+Core architecture: 64 Bit
+System time: 9/24/2017 11:37:40 PM
+System language: English (United States)(ENU) / Loaded game language: en
+Decimal separator: .
+Available physical memory: 2.93 Gigabyte
+Available logical processors: 1
+
+---------------------------------------------------------------------------------
+
+.Net installation information:
+
+v2.0.50727  2.0.50727.5420  SP2
+v3.0  3.0.30729.5420  SP2
+v3.5  3.5.30729.5420  SP1
+v4  
+  Client  4.7.02053
+  Full  4.7.02053
+v4.0  
+  Client  4.0.0.0
+
+---------------------------------------------------------------------------------
+
+Graphics Card information:
+
+[CardName(s): "Mobile Intel(R) 4 Series Express Chipset Family; Mobile Intel(R) 4 Series Express Chipset Family"]
+[CardRAM(s) : "1373214720; "]
+
+---------------------------------------------------------------------------------
+
+Error information:
+
+Message: The given key was not present in the dictionary.
+InnerException: NOTHING
+BaseException: The given key was not present in the dictionary.
+HelpLink: No helplink available.
+Data: Items: 0
+Source: mscorlib
+Win32 Errorcode: -1
+
+---------------------------------------------------------------------------------
+
+Error solution:
+(The provided solution might not work for your problem)
+
+Error ID: -1
+Error Type: NaN
+Error Description: The error is undocumented in the error handling system.
+Error Solution: NaN
+
+---------------------------------------------------------------------------------
+
+CallStack: 
+
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at net.Pokemon3D.Game.MusicManager.PlayMusic(String Song, Boolean SearchForIntro, Single NewFadeInSpeed, Single NewFadeOutSpeed) in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Resources\Sound\MusicManager.vb:line 227
+   at net.Pokemon3D.Game.MusicManager.PlayMusic(String Song, Boolean SearchForIntro) in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Resources\Sound\MusicManager.vb:line 202
+   at net.Pokemon3D.Game.OverworldScreen..ctor() in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Overworld\OverworldScreen.vb:line 126
+   at net.Pokemon3D.Game.JoinServerScreen.JoinButton() in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Screens\MainMenu\JoinServerScreen.vb:line 267
+   at net.Pokemon3D.Game.JoinServerScreen.Update() in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Screens\MainMenu\JoinServerScreen.vb:line 232
+   at net.Pokemon3D.Game.Core.Update(GameTime gameTime) in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Core\Core.vb:line 148
+   at net.Pokemon3D.Game.GameController.Update(GameTime gameTime) in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Core\GameController.vb:line 85
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at net.Pokemon3D.Game.Program.Main(String[] args) in D:\New P3D-Legacy\P3D-Legacy\2.5DHero\2.5DHero\Core\Program.vb:line 25
+
+---------------------------------------------------------------------------------
+
+Enviornment dump: 
+
+--------------------------------------------------
+Generated Fields:
+--------------------------------------------------
+
+Private mainTexture As Texture2D = {Name = "", Width = 256, Height = 256}
+Private ServerList As List(Of Server) = {Local,, Official Pokémon3D Server,karp.pokemon3d.net:15124}
+Private selectIndex As Int32 = 0
+Private scrollIndex As Int32 = 0
+Private buttonIndex As Int32 = 0
+Private LoadOnlineServers As Boolean = True
+Shared BarAnimationState As Int32 = 40
+Public Shared SelectedServer As Server = Nothing
+Public Shared Online As Boolean = False
+Public Shared ClearThreadList As List(Of Thread) = {System.Threading.Thread, System.Threading.Thread}
+Public UpdateFadeOut As Boolean = False
+Public UpdateFadeIn As Boolean = False
+
+--------------------------------------------------
+Generated Property:
+--------------------------------------------------
+
+Property PreScreen As Screen = net.Pokemon3D.Game.NewMainMenuScreen
+Property Identification As Identifications = JoinServerScreen
+Property MouseVisible As Boolean = True
+Property CanBePaused As Boolean = False
+Property CanMuteMusic As Boolean = True
+Property CanChat As Boolean = False
+Property CanTakeScreenshot As Boolean = True
+Property CanDrawDebug As Boolean = True
+Property CanGoFullscreen As Boolean = True
+Property IsDrawingGradients As Boolean = False
+Property IsOverlay As Boolean = False
+
+---------------------------------------------------------------------------------
+
+You should report this error.
+
+Go to "http://pokemon3d.net/forum/forums/6/create-thread" to report this crash there.
